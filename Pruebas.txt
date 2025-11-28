@@ -1,0 +1,21 @@
+# Pruebas de Python
+#Debe agregar cada ejempolo a entrada.txt
+
+# Prueba sin errores
+def suma(a, b):
+    return a + b
+
+resultado = suma(3, 5)
+print("Resultado sin errores:", resultado)
+
+# Prueba con error léxico (uso de carácter inválido)
+# El siguiente código causará un error de sintaxis por el carácter '@'
+# def resta(a, b):
+#     return a @ b
+
+# Prueba con error semántico (lógica incorrecta)
+def multiplicacion(a, b):
+    return a + b
+
+resultado_mal = multiplicacion(4, 6)
+print("Resultado con error semántico:", resultado_mal)

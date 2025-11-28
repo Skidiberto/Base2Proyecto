@@ -1,0 +1,8 @@
+def mayor(x, y):
+    if x > y:
+        return x
+    else:
+        return y
+
+resultado = mayor8, 15)
+print(resultado)
