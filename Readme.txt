@@ -3,8 +3,8 @@ Calculadora Científica: Compilador con Generación de Código Intermedio
 Compilador modular que procesa expresiones matemáticas complejas, genera Código de Tres Direcciones (TAC) como representación intermedia y ejecuta las instrucciones mediante una Máquina Virtual personalizada.
 
 nformación del Curso
-Materia:Programación de Sistemas de Base 1 (Compiladores 2)
-Institución:Universidad Autónoma de Tamaulipas - Facultad de Ingeniería (UAT-FI)
+Materia:Programación de Sistemas de Base 2 (Compiladores 2)
+Institución:Universidad Autónoma de Tamaulipas - Facultad de Ingeniería UAT
 Semestre: 2025-3 (Noveno Semestre)
 Profesor: Muñoz Quintero Dante Adolfo
 
