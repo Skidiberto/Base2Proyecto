@@ -17,20 +17,20 @@ Estructura del Proyecto
 El proyecto sigue una arquitectura de compilador en tres fases:
 
 1.  Frontend (Análisis):
-    exer/Parser (ANTLR4): Tokenización y construcción del Árbol de Sintaxis Abstracta (AST).
+    exer/Parser (ANTLR4): Tokenización y construcción del Árbol de Sintaxis Abstracta.
     Manejo de Errores: Listener personalizado para detección de errores sintácticos.
 2.  Middle-end (Síntesis):
-    CompilerVisitor: Recorre el AST y "aplana" las expresiones jerárquicas.
-    Generación TAC: Produce código lineal usando variables temporales (`t1`, `t2`...).
+    CompilerVisitor: Recorre el arbol las expresiones jerárquicas.
+    Generación TAC: Produce código lineal usando variables temporales.
 3.  Backend (Ejecución):
-    Ejecutor (VM): Interpreta el código TAC, gestiona la memoria de variables temporales y computa el resultado final.
+    Ejecutor: Interpreta el código TAC, gestiona la memoria de variables temporales y computa el resultado final.
 
 Organización de Directorios
 proyecto-compiladores2
 /
 ├── src/          # Código fuente Java y Gramática (.g4)
 ├── lib/          # Librerías externas (ANTLR Runtime)
-├── examples/     # Casos de prueba (válidos e inválidos)
-├── docs/         # Documentación y manuales
+├── ejemplos/     # Casos de prueba
+├── docu/         # Documentación
 └── build.* # Scripts de compilación automática
 (build.sh para linux y build.bat para windows)
